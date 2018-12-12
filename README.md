@@ -12,13 +12,13 @@ python3, Gnome3 desktop or Ubuntu and Systemd.
 This will set the desktop wallpaper to a random image
 
 ```sh
-python stalenhag.py
+python stalenhag.rb
 ```
 
 This will download all images on the website
 
 ```sh
-python stalenhag.py all
+python stalenhag.rb all
 ```
 
 ## systemd
