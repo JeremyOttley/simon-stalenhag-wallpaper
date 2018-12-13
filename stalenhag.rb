@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
-require 'pathname'
 require 'net/http'
 require 'uri'
 
 BASE = "http://www.simonstalenhag.se/"
-IMAGE_DIR = _expand_path("~/Pictures/Stålenhag/")
+IMAGE_DIR = File.expand_path("~Pictures/Stålenhag")
 
 def check_dirs()
 .mkdir_p(IMAGE_DIR) unless Dir.exist?(IMAGE_DIR)
