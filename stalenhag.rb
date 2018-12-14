@@ -28,7 +28,7 @@ def download_image(name)
 end
 
 def get_random_local_image
-images = Dir.entries(IMAGES_DIR)
+images = Dir.entries(IMAGE_DIR)
 images = 
 images = File.extname('.jpg')
 end
