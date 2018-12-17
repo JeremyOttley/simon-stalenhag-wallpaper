@@ -20,6 +20,8 @@ def get_image_list()
   response = Net::HTTP.get_response(uri)
   contents = response.body
   #images = Regexp.new("/[a-zA-Z0-9]*.jpg")
+  #Dir['/[a-zA-Z0-9]*.jpg']
+  #Dir['Stålenhag/*.jpg']
   images = %r(/[a-zA-Z0-9]*.jpg)
 end
 
